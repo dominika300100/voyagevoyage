@@ -1,0 +1,48 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "fantasy";
+  background: url(hockney-st-tropez-pool.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+h1 {
+	font-size: 3rem;
+	color: #FFF7E6;
+}
+
+hr {
+	border-color: #FFF1D3;
+	border-width: 3px;
+	max-width: 100px;
+}
+
+.buffer {
+	height: 10rem;
+}
+
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: lowercase;
+}
+
+.btn-primary {
+	background-color: #FFC44C;
+	border: #FFC44C;
+}
+
+
+.btn-primary:hover {
+	background-color: #FFDE9A;
+	border: #FFF1D3;
+	transform: scale(1.1); 
+}
+
+.btn-xl {
+	padding: 1rem 2rem;
+
+}
